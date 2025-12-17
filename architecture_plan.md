@@ -24,18 +24,11 @@ The CSV files can be exported and used to present KPIs to research team during m
 
 ## Security & Governance
 
-- In order to protect PHI and minimize the risk of a breach of confidentiality: 
-    - User roles can be assigned to those who are allowed to access databases and storage (research team)
-    - Can create user accounts instead of personal user credentials.
-    - Environment variable secrets: Sensitive information (like database passwords) would not be hardcoded into the app.
+To protect PHI and minimize the risk of a breach of confidentiality, user roles can be assigned to limit access to the database and cloud storage to authorized research team members. Instead of relying on personal user credentials, the system can implement dedicated user accounts for each team member. Additionally, sensitive information such as database passwords would be stored as environment variable secrets rather than being hardcoded into the application, ensuring secure handling of confidential data.
 
 ## Cost Considerations 
 
-- Cloud costs:
-    - Cloud SQL would be the most expensive because it is a managed database.
-    - Cloud Run is relatively cheap because it only runs when requests come in.
-    - Cloud Storage costs very little for small files like CSVs.
-
+Regarding costs considerations, the managed database (Cloud SQL) represents the largest expense due to its storage and management features. Cloud Run is relatively inexpensive because it only consumes resources when requests are made, making it cost-efficient. Cloud Storage costs are minimal for small files such as CSVs, making it a practical option for storing participant enrollment and medication data.
 
 
 |Layer| Service (Cloud) | Role in Solution| Related Assignment/Module |

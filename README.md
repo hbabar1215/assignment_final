@@ -1,0 +1,4 @@
+In this final assignment, we had to design a small, realistic healthcare cloud solution that integrates multiple services we used this semester. 
+**Part 1 Required: Design**
+Produce a clear solution architecture and implementation plan that shows how we would use cloud services together to solve a specific healthcare problem.
+This database was made to make tracking enrollment and medication compliance easier for medical research teams. By centralizing this data in a cloud based system, research teams can monitor recruitment and retention more effectively which is critical for meeting study timelines and ensuring the success of funded research projects. 
